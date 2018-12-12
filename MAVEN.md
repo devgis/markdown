@@ -8,6 +8,7 @@ Maven依赖查询：
 http://mvnrepository.com/
 =====================================================
 一，Maven常用命令：
+  
 1. 创建Maven的普通Java项目：
 
 mvn archetype:create
@@ -98,7 +99,7 @@ mvn install，包含mvn compile，mvn package，然后上传到本地仓库
 mvn deploy,包含mvn install,然后，上传到私服
 二，PS:
 　　一般使用情况是这样，首先通过cvs或svn下载代码到本机，然后执行mvn eclipse:eclipse生成ecllipse项目文件，然后导入到eclipse就行了；修改代码后执行mvn compile或mvn test检验，也可以下载eclipse的maven插件。
-
+  
 1. 显示版本信息 :
 
 mvn -version/-v
@@ -195,6 +196,7 @@ mvn install:install-file -DgroupId=com -DartifactId=client -Dversion=0.1.0 -Dpac
 
 -DdownloadJavadocs=true
 三，附加
+  
 mvn help:describe
 你是否因为记不清某个插件有哪些goal而痛苦过,你是否因为想不起某个goal有哪些参数而苦恼,那就试试这个命令吧,它会告诉你一切的.
 
