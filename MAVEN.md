@@ -6,7 +6,7 @@ http://repo2.maven.org/maven2/
 Maven依赖查询：
 
 http://mvnrepository.com/
-
+=====================================================
 一，Maven常用命令：
 1. 创建Maven的普通Java项目：
 
