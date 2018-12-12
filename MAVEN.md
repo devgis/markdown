@@ -11,18 +11,18 @@ http://mvnrepository.com/
   
 1. 创建Maven的普通Java项目：
 
-mvn archetype:create
+> mvn archetype:create
     -DgroupId=packageName
     -DartifactId=projectName
 2. 创建Maven的Web项目：
 
-mvn archetype:create
+> mvn archetype:create
     -DgroupId=packageName
     -DartifactId=webappName
     -DarchetypeArtifactId=maven-archetype-webapp
 3. 反向生成 maven 项目的骨架：
 
-mvn archetype:generate
+> mvn archetype:generate
 　　你是怎么创建你的maven项目的?是不是像这样:
 
 mvn archetype:create -DarchetypeArtifactId=maven-archetype-quickstart -DgroupId=com.ryanote -Dartifact=common
